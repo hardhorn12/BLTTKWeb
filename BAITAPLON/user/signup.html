@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiệu Thuốc AA</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng Ký</h2>
+        <form id="loginForm" name="frmAccount">
+            <div>
+                <label for="username">Tên đăng nhập:</label>
+                <input type="text" id="username" name="username">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div>
+                <label for="confirmpassword">Nhập lại mật khẩu:</label>
+                <input type="password" id="confirmpassword" name="confirmpassword">
+            </div>
+            <button type="submit" onclick="validform(document.forms.frmAccount);">Đăng Ký</button>
+            <p>Đã có tài khoản? <a href="login.html">Đăng nhập ngay</a></p>
+        </form>
+    </div>
+
+    <script src="../js/ValidScript.js"></script>
+</body>
+</html>

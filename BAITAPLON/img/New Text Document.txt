@@ -1,0 +1,26 @@
+th1	Đại tràng Tâm Bình hỗ trợ giảm viêm đại tràng hộp 60 viên
+th2	Bình Vị Thái Minh hỗ trợ giảm viêm loét dạ dày chai 80 viên
+th3	Cốm Bio-acimin Gold+ bổ sung lợi khuẩn, vitamin hộp 30 gói x 4g
+th4	Hasanbin 200 trị rối loạn đường tiêu hóa (3 vỉ x 10 viên)
+th5	Spacmarizine 40mg giảm đau do co thắt cơ trơn ở đường tiêu hóa (20 vỉ x 15 viên)
+
+xk1	Xương Khớp Nhất Nhất trị đau lưng, đau thần kinh tọa, thoái hóa khớp (2 vỉ x 10 viên)
+xk2	Seocem 50mg Capsule trị thoái hóa xương khớp (10 vỉ x 10 viên)
+xk3	Viên xương khớp Bách Niên Kiện giảm nguy cơ viêm khớp, thoái hóa khớp hộp 20 viên
+xk4	Super Calcium Vitamin D3 + K2 giúp xương, khớp, sụn khỏe mạnh hộp 120 viên
+xk5	Flexidron 90 giảm đau, kháng viêm xương khớp (3 vỉ x 10 viên)
+
+
+thoan1	Cavinton Forte 10mg trị các dạng của rối loạn tuần hoàn máu não (2 vỉ x 15 viên)
+
+thoan2	Cardioton trị thiểu năng tuần hoàn, thiếu máu ở tim (3 vỉ x 10 viên)
+
+thoan3	Cardioton hỗ trợ chức năng tim mạch và giúp hệ tim mạch khỏe mạnh (6 vỉ x 10 viên)
+
+thoan4	Hoạt Huyết Nhất Nhất phòng và trị thiểu năng tuần hoàn não (3 vỉ x 10 viên)
+
+thoan5	Topbrain giúp tăng tuần hoàn máu, cải thiện thiểu năng tuần hoàn não (6 vỉ x 10 viên)
+
+
+
+

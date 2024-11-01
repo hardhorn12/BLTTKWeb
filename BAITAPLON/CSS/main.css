@@ -1,0 +1,229 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color:rgb(61, 207, 21);
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    float: left;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin: 0 10px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+.search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.call{
+    color: white;
+    align-items: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.login{
+    font-size: 18px;
+    padding: 10px 0;
+}
+.login li{
+    font-weight: bold;
+}
+.login a{
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.login a:hover{
+    color:#e4e5ea;
+    background-color: #388E3C;
+}
+
+.menu {
+    background-color: #388E3C;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    font-weight: bold;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+   
+}
+
+.menu a:hover {
+    background-color: #2E7D32; 
+    color: #e0e0e0;
+}
+
+
+
+
+.container{
+    margin: 30px 20px;
+}
+.container h2{
+    color: white;
+    background-color: rgb(128, 208, 90);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 8px;
+
+}
+
+.category{
+    display: flex;
+    box-sizing: border-box;
+    margin:0 20px;
+    justify-content: center;
+}
+
+
+
+.product{
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 16%;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+
+    position: relative;
+    
+}
+
+.product img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    
+}
+
+.product h3{
+    text-align: center;
+}
+.product p{
+    padding: 5px;
+    text-align: center;
+}
+
+.product button{
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    
+}
+.product button:hover{
+    background-color: #357537;
+}
+
+
+.footer{
+    background-color: rgb(128, 208, 90);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+/* Thiết kế cho màn hình nhỏ (điện thoại) */
+@media (max-width: 600px) {
+    .header, .menu, .footer {
+        flex-direction: column; /* Chuyển các phần tử thành cột */
+        align-items: center;    /* Căn giữa các phần tử */
+    }
+
+    .logo img {
+        height: 30px; /* Giảm kích thước logo */
+    }
+
+    .search input {
+        width: 80%; /* Giảm độ rộng của thanh tìm kiếm trên màn hình nhỏ */
+    }
+
+    .login ul {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    .menu ul {
+        flex-direction: column; /* Hiển thị các mục menu theo cột */
+        text-align: center;
+    }
+
+    .category {
+        flex-direction: column; /* Sắp xếp sản phẩm theo cột trên màn hình nhỏ */
+        align-items: center;
+    }
+
+    .product {
+        width: 90%; /* Cho mỗi sản phẩm chiếm gần hết chiều ngang màn hình */
+        margin-bottom: 20px;
+    }
+
+    .container h2 {
+        font-size: 18px; /* Giảm kích thước chữ tiêu đề cho màn hình nhỏ */
+    }
+}
